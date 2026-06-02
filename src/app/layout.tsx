@@ -24,6 +24,11 @@ export const metadata: Metadata = {
   },
   description:
     "Spécialistes de l'accompagnement efficace, nous vous aidons à trouver votre voie pour surmonter vos difficultés et atteindre vos objectifs.",
+  icons: {
+    icon: [{ url: "/favicon.ico" }],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    other: [{ rel: "icon", url: "/icon-512.png", sizes: "512x512" }],
+  },
   openGraph: {
     type: "website",
     locale: "fr_FR",
