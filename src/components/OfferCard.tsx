@@ -49,7 +49,7 @@ export default function OfferCard({
             style={{
               color: "#14233b",
               fontSize: "1.25rem",
-              fontFamily: "var(--font-fraunces), Georgia, serif",
+              fontFamily: "var(--font-display), system-ui, sans-serif",
             }}
           >
             {title}

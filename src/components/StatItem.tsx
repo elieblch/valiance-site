@@ -19,7 +19,7 @@ export default function StatItem({
         <p
           className="font-display font-semibold mb-1"
           style={{
-            fontFamily: "var(--font-fraunces), Georgia, serif",
+            fontFamily: "var(--font-display), system-ui, sans-serif",
             fontSize: "clamp(1.75rem, 3vw, 2.5rem)",
             color: "#b0894f",
             lineHeight: 1.1,

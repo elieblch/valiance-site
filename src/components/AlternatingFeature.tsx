@@ -28,7 +28,7 @@ export default function AlternatingFeature({
           <h3
             className="h3 mb-5"
             style={{
-              fontFamily: "var(--font-fraunces), Georgia, serif",
+              fontFamily: "var(--font-display), system-ui, sans-serif",
               color: "#14233b",
               fontSize: "1.5rem",
             }}

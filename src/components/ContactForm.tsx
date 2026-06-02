@@ -141,7 +141,7 @@ export default function ContactForm() {
         <p
           className="font-semibold mb-2"
           style={{
-            fontFamily: "var(--font-fraunces), Georgia, serif",
+            fontFamily: "var(--font-display), system-ui, sans-serif",
             color: "#14233b",
           }}
         >

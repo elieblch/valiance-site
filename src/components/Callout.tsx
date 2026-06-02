@@ -18,7 +18,7 @@ export default function Callout({ title, text }: CalloutProps) {
         <h3
           className="font-semibold mb-3 text-lg"
           style={{
-            fontFamily: "var(--font-fraunces), Georgia, serif",
+            fontFamily: "var(--font-display), system-ui, sans-serif",
             color: "#14233b",
           }}
         >

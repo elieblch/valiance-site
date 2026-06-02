@@ -67,7 +67,7 @@ export default function Header() {
                 className="font-display font-semibold text-xl tracking-tight"
                 style={{
                   color: scrolled ? "#14233b" : "#f7f4ee",
-                  fontFamily: "var(--font-fraunces), Georgia, serif",
+                  fontFamily: "var(--font-display), system-ui, sans-serif",
                 }}
               >
                 Valiance
@@ -163,7 +163,7 @@ export default function Header() {
               href={link.href}
               className="font-display text-3xl font-medium text-on-dark transition-colors duration-200 hover:text-brass"
               style={{
-                fontFamily: "var(--font-fraunces), Georgia, serif",
+                fontFamily: "var(--font-display), system-ui, sans-serif",
                 color: "#f7f4ee",
                 transitionDelay: menuOpen ? `${i * 50}ms` : "0ms",
               }}

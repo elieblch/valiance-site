@@ -131,7 +131,7 @@ export default function CoachingPage() {
                 <h2
                   className="h3"
                   style={{
-                    fontFamily: "var(--font-fraunces), Georgia, serif",
+                    fontFamily: "var(--font-display), system-ui, sans-serif",
                     color: "#14233b",
                     fontSize: "1.5rem",
                   }}
@@ -178,7 +178,7 @@ export default function CoachingPage() {
                     className="font-semibold mb-2"
                     style={{
                       color: "#14233b",
-                      fontFamily: "var(--font-fraunces), Georgia, serif",
+                      fontFamily: "var(--font-display), system-ui, sans-serif",
                     }}
                   >
                     {m.title}
@@ -221,7 +221,7 @@ export default function CoachingPage() {
             <h2
               className="h3 mb-2"
               style={{
-                fontFamily: "var(--font-fraunces), Georgia, serif",
+                fontFamily: "var(--font-display), system-ui, sans-serif",
                 color: "#14233b",
                 fontSize: "1.5rem",
               }}

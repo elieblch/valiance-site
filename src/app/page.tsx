@@ -79,7 +79,7 @@ export default function HomePage() {
               <p
                 className="italic text-xl lg:text-2xl leading-relaxed mb-4"
                 style={{
-                  fontFamily: "var(--font-fraunces), Georgia, serif",
+                  fontFamily: "var(--font-display), system-ui, sans-serif",
                   color: "#14233b",
                 }}
               >
@@ -137,7 +137,7 @@ export default function HomePage() {
                     style={{
                       backgroundColor: "#14233b",
                       color: "#b0894f",
-                      fontFamily: "var(--font-fraunces), Georgia, serif",
+                      fontFamily: "var(--font-display), system-ui, sans-serif",
                     }}
                   >
                     {v.letter}
@@ -145,7 +145,7 @@ export default function HomePage() {
                   <h3
                     className="font-semibold text-lg mb-3"
                     style={{
-                      fontFamily: "var(--font-fraunces), Georgia, serif",
+                      fontFamily: "var(--font-display), system-ui, sans-serif",
                       color: "#14233b",
                     }}
                   >
@@ -298,7 +298,7 @@ export default function HomePage() {
                 <h2
                   className="h3 mb-4"
                   style={{
-                    fontFamily: "var(--font-fraunces), Georgia, serif",
+                    fontFamily: "var(--font-display), system-ui, sans-serif",
                     color: "#14233b",
                     fontSize: "1.5rem",
                   }}

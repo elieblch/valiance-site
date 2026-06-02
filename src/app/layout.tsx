@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Fraunces, Inter } from "next/font/google";
+import { Hanken_Grotesk, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const fraunces = Fraunces({
+const display = Hanken_Grotesk({
   subsets: ["latin"],
-  variable: "--font-fraunces",
+  weight: ["500", "600", "700", "800"],
+  variable: "--font-display",
   display: "swap",
-  axes: ["opsz"],
 });
 
 const inter = Inter({
@@ -44,7 +44,7 @@ export default function RootLayout({
   return (
     <html
       lang="fr"
-      className={`${fraunces.variable} ${inter.variable}`}
+      className={`${display.variable} ${inter.variable}`}
     >
       <body className="flex flex-col min-h-screen antialiased">
         <Header />

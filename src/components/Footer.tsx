@@ -18,7 +18,7 @@ export default function Footer() {
             <span
               className="block text-2xl font-semibold mb-3"
               style={{
-                fontFamily: "var(--font-fraunces), Georgia, serif",
+                fontFamily: "var(--font-display), system-ui, sans-serif",
                 color: "#f7f4ee",
               }}
             >

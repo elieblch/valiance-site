@@ -114,7 +114,7 @@ export default function ConseilPage() {
                   <h3
                     className="font-semibold text-lg mb-3"
                     style={{
-                      fontFamily: "var(--font-fraunces), Georgia, serif",
+                      fontFamily: "var(--font-display), system-ui, sans-serif",
                       color: "#14233b",
                     }}
                   >

@@ -179,7 +179,7 @@ export default function AProposPage() {
               <p
                 className="font-semibold mb-3"
                 style={{
-                  fontFamily: "var(--font-fraunces), Georgia, serif",
+                  fontFamily: "var(--font-display), system-ui, sans-serif",
                   color: "#14233b",
                 }}
               >
