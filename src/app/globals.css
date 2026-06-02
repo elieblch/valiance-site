@@ -1,26 +1,239 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* ── FONTS (resolved from next/font CSS vars) ─────────────────────────────── */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-inter);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ── DESIGN TOKENS ────────────────────────────────────────────────────────── */
+@theme {
+  --color-ink: #14233b;
+  --color-ink-deep: #0c1626;
+  --color-ivory: #f7f4ee;
+  --color-ivory-pure: #fcfaf6;
+  --color-slate: #3a4049;
+  --color-slate-muted: #6b7280;
+  --color-brass: #b0894f;
+  --color-brass-dark: #94703a;
+  --color-hairline: #e6dfd2;
+  --color-on-dark: #f7f4ee;
+  --color-on-dark-muted: #9fb0c2;
+}
+
+/* ── BASE ─────────────────────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f4ee;
+  color: #3a4049;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── TYPOGRAPHY SCALE ─────────────────────────────────────────────────────── */
+.h1 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: clamp(2.5rem, 6vw, 4.75rem);
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.h2 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.h3 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+.kicker {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: #b0894f;
+}
+
+/* ── CONTAINER ───────────────────────────────────────────────────────────── */
+.container-site {
+  width: 100%;
+  max-width: 1240px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .container-site {
+    padding-inline: 3rem;
+  }
+}
+
+/* ── BUTTONS ─────────────────────────────────────────────────────────────── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #14233b;
+  color: #f7f4ee;
+  padding: 0.75rem 1.75rem;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: background-color 200ms ease, transform 150ms ease;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0c1626;
+}
+
+.btn-primary:focus-visible {
+  outline: 2px solid #b0894f;
+  outline-offset: 3px;
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  color: #f7f4ee;
+  padding: 0.75rem 1.75rem;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid rgba(247, 244, 238, 0.6);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: border-color 200ms ease, background-color 200ms ease;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  border-color: #f7f4ee;
+  background-color: rgba(247, 244, 238, 0.08);
+}
+
+.btn-secondary:focus-visible {
+  outline: 2px solid #b0894f;
+  outline-offset: 3px;
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  color: #14233b;
+  padding: 0.75rem 1.75rem;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid #14233b;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: background-color 200ms ease, color 200ms ease;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background-color: #14233b;
+  color: #f7f4ee;
+}
+
+.btn-outline:focus-visible {
+  outline: 2px solid #b0894f;
+  outline-offset: 3px;
+}
+
+/* ── LINK ACCENT ─────────────────────────────────────────────────────────── */
+.link-accent {
+  color: #b0894f;
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+}
+
+.link-accent::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #b0894f;
+  transition: width 250ms ease;
+}
+
+.link-accent:hover::after {
+  width: 100%;
+}
+
+/* ── SCROLL INDICATOR ────────────────────────────────────────────────────── */
+@keyframes scroll-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(6px);
+    opacity: 0.5;
+  }
+}
+
+.scroll-indicator {
+  animation: scroll-bounce 2s ease-in-out infinite;
+}
+
+/* ── FOOTER LINKS ────────────────────────────────────────────────────────── */
+.footer-nav-link {
+  color: #9fb0c2;
+  text-decoration: none;
+  transition: color 200ms ease;
+}
+
+.footer-nav-link:hover {
+  color: #f7f4ee;
+}
+
+/* ── REDUCED MOTION ──────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

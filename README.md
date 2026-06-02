@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Valiance — Site vitrine
 
-## Getting Started
+Site vitrine pour le cabinet **Valiance** (coaching, conseil, formation) fondé par Nicolas Blecher.
+Stack : **Next.js 16** App Router · **Tailwind CSS v4** · **Framer Motion**.
 
-First, run the development server:
+## Lancer en local
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvre [http://localhost:3000](http://localhost:3000) dans ton navigateur.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build de production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Structure des contenus
 
-To learn more about Next.js, take a look at the following resources:
+- `src/content/images.ts` — catalogue des URLs d'images (toutes vérifiées HTTP 200)
+- `src/app/*/page.tsx` — copy de chaque page (aucune base de données ni CMS)
+- `src/components/` — composants réutilisables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Citation Anatole France
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Dans `src/app/page.tsx`, cherche le placeholder `/* CITATION ANATOLE FRANCE */`
+et remplace le texte `« … »` par la vraie citation du site actuel (30 sec).
 
-## Deploy on Vercel
+## Formulaire de contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Le formulaire utilise `mailto:` pour la démo (zéro config serveur).
+Pour le brancher à un vrai service, voir `src/components/ContactForm.tsx` :
+- [Web3Forms](https://web3forms.com) — gratuit, aucun backend
+- [Resend](https://resend.com) — API email developer-friendly
