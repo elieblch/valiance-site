@@ -123,11 +123,11 @@ export default function HomePage() {
             </p>
           </Reveal>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
             {APPROCHE_LEVIERS.map((item, i) => (
-              <Reveal key={item.label} delay={i * 0.08}>
+              <Reveal key={item.label} delay={i * 0.08} className="h-full">
                 <div
-                  className="p-6 rounded-[4px] border flex gap-4 items-start"
+                  className="h-full p-6 rounded-[4px] border flex gap-4 items-start"
                   style={{ backgroundColor: "#f7f4ee", borderColor: "#e6dfd2" }}
                 >
                   <div

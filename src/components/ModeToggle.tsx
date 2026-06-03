@@ -143,7 +143,7 @@ export default function ModeToggle() {
           exit={prefersReduced ? {} : { opacity: 0, y: -12 }}
           transition={{ duration: 0.22, ease: "easeOut" }}
         >
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 items-stretch">
             {cards.map((card, i) => (
               <OutcomeCard key={card.title} {...card} delay={i * 0.05} />
             ))}

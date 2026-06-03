@@ -24,7 +24,7 @@ export default function OutcomeCard({ icon, title, benefit, delay = 0 }: Outcome
       animate={prefersReduced ? {} : { y: hovered ? -4 : 0 }}
       onHoverStart={() => setHovered(true)}
       onHoverEnd={() => setHovered(false)}
-      className="rounded-[4px] border p-6 flex flex-col gap-4 cursor-default"
+      className="h-full rounded-[4px] border p-6 flex flex-col gap-4 cursor-default"
       style={{
         backgroundColor: "#fcfaf6",
         borderColor: "#e6dfd2",

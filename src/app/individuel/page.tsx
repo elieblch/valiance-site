@@ -135,7 +135,7 @@ export default function IndividuelPage() {
             kicker="VOS OBJECTIFS"
             title="Sur quoi nous vous accompagnons"
           />
-          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 items-stretch">
             {RESULTS.map((card, i) => (
               <OutcomeCard key={card.title} {...card} delay={i * 0.07} />
             ))}

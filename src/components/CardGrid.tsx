@@ -21,7 +21,7 @@ export default function CardGrid({ items, columns = 3 }: CardGridProps) {
   return (
     <ul className={`grid ${colClass} gap-4`} role="list">
       {items.map((item, i) => (
-        <Reveal key={item.title} delay={i * 0.04}>
+        <Reveal key={item.title} delay={i * 0.04} className="h-full">
           <li
             className="p-6 border rounded-[4px] h-full"
             style={{

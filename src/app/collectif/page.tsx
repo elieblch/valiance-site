@@ -113,7 +113,7 @@ export default function CollectifPage() {
             kicker="VOS OBJECTIFS"
             title="Sur quoi nous vous accompagnons"
           />
-          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 items-stretch">
             {RESULTS.map((card, i) => (
               <OutcomeCard key={card.title} {...card} delay={i * 0.07} />
             ))}
@@ -143,9 +143,9 @@ export default function CollectifPage() {
             </h2>
           </Reveal>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 items-stretch">
             {MODES.map((mode, i) => (
-              <Reveal key={mode.title} delay={i * 0.08}>
+              <Reveal key={mode.title} delay={i * 0.08} className="h-full">
                 <div
                   className="p-8 rounded-[4px] border h-full"
                   style={{ backgroundColor: "#fcfaf6", borderColor: "#e6dfd2" }}
