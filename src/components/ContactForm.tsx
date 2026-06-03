@@ -40,7 +40,7 @@ export default function ContactForm() {
 
     // ── mailto: fallback (no backend)
     // Pour brancher un vrai service, remplacer ce bloc par un appel à
-    // Web3Forms (https://web3forms.com) ou Resend — voir README.
+    // Web3Forms (https://web3forms.com) ou Resend, voir README.
     const body = [
       `Nom : ${form.name}`,
       `Email : ${form.email}`,

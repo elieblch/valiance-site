@@ -28,7 +28,7 @@ export default function Hero({
     <section
       className="relative overflow-hidden"
       style={{ minHeight: isHome ? "100svh" : "52vh" }}
-      aria-label={`Hero — ${title}`}
+      aria-label={`Hero, ${title}`}
     >
       {/* Background image */}
       <Image
@@ -100,7 +100,7 @@ export default function Hero({
         </div>
       </div>
 
-      {/* Scroll indicator — home only */}
+      {/* Scroll indicator, home only */}
       {isHome && (
         <div
           className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 scroll-indicator"

@@ -15,11 +15,11 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Coaching collectif & formation — équipes & organisations | Valiance",
+  title: "Coaching collectif & formation, équipes & organisations | Valiance",
   description:
-    "Team coaching, conseil et formation pour équipes et organisations. Lean Six Sigma, cohésion, transformation managériale — une performance durable qui allie bien-être et efficacité.",
+    "Team coaching, conseil et formation pour équipes et organisations. Lean Six Sigma, cohésion, transformation managériale, une performance durable qui allie bien-être et efficacité.",
   openGraph: {
-    title: "Coaching collectif & formation — équipes & organisations | Valiance",
+    title: "Coaching collectif & formation, équipes & organisations | Valiance",
     description:
       "Team coaching, conseil et formation pour une performance durable. Certifiés HEC et Black Belt Lean Six Sigma.",
   },
@@ -62,7 +62,7 @@ const MODES = [
   {
     num: 2,
     title: "Nous menons AVEC vous",
-    description: "Montée en compétence des équipes — un accompagnement en tandem pour transférer l'expertise.",
+    description: "Montée en compétence des équipes, un accompagnement en tandem pour transférer l'expertise.",
   },
   {
     num: 3,
@@ -72,10 +72,10 @@ const MODES = [
 ];
 
 const PROCESS_STEPS = [
-  { number: 1, label: "Diagnostic partagé — comprendre vos enjeux et votre contexte." },
-  { number: 2, label: "Cadrage des objectifs — définir les résultats attendus et les indicateurs de succès." },
-  { number: 3, label: "Intervention — en présentiel ou à distance, sur mesure." },
-  { number: 4, label: "Transfert de compétences & suivi — ancrer les acquis dans la durée." },
+  { number: 1, label: "Diagnostic partagé, comprendre vos enjeux et votre contexte." },
+  { number: 2, label: "Cadrage des objectifs, définir les résultats attendus et les indicateurs de succès." },
+  { number: 3, label: "Intervention, en présentiel ou à distance, sur mesure." },
+  { number: 4, label: "Transfert de compétences & suivi, ancrer les acquis dans la durée." },
 ];
 
 export default function CollectifPage() {
@@ -196,7 +196,7 @@ export default function CollectifPage() {
         </div>
       </section>
 
-      {/* TÉMOIGNAGES — PLACEHOLDER */}
+      {/* TÉMOIGNAGES, PLACEHOLDER */}
       {/* TÉMOIGNAGE À COMPLÉTER */}
       {/*
       <section className="py-20" style={{ backgroundColor: "#f7f4ee" }}>
@@ -205,7 +205,7 @@ export default function CollectifPage() {
           <div className="space-y-8">
             <blockquote className="p-8 rounded-[4px] border" style={{ borderColor: "#e6dfd2" }}>
               <p className="italic text-lg mb-4" style={{ color: "#3a4049" }}>« … »</p>
-              <footer className="text-sm" style={{ color: "#6b7280" }}>— Prénom Nom, Titre, Entreprise</footer>
+              <footer className="text-sm" style={{ color: "#6b7280" }}>, Prénom Nom, Titre, Entreprise</footer>
             </blockquote>
           </div>
         </div>

@@ -50,7 +50,7 @@ export default function Header() {
       >
         <div className="container-site flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center shrink-0" aria-label="Valiance — accueil">
+          <Link href="/" className="flex items-center shrink-0" aria-label="Valiance, accueil">
             {!logoError ? (
               <Image
                 src={LOGO_URL}

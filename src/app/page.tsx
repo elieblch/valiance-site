@@ -10,13 +10,13 @@ import CTASection from "@/components/CTASection";
 import { IMAGES } from "@/content/images";
 
 export const metadata: Metadata = {
-  title: "Valiance — Coaching · Conseil · Formation pour dirigeants & équipes",
+  title: "Valiance, Coaching · Conseil · Formation pour dirigeants & équipes",
   description:
-    "Nous aidons dirigeants, managers et équipes à surmonter leurs difficultés et atteindre leurs objectifs — durablement. Accompagnement individuel et collectif, certifié HEC.",
+    "Nous aidons dirigeants, managers et équipes à surmonter leurs difficultés et atteindre leurs objectifs, durablement. Accompagnement individuel et collectif, certifié HEC.",
   openGraph: {
-    title: "Valiance — Accompagnement des dirigeants, managers & équipes",
+    title: "Valiance, Accompagnement des dirigeants, managers & équipes",
     description:
-      "Nous aidons dirigeants, managers et équipes à surmonter leurs difficultés et atteindre leurs objectifs — durablement.",
+      "Nous aidons dirigeants, managers et équipes à surmonter leurs difficultés et atteindre leurs objectifs, durablement.",
     locale: "fr_FR",
   },
 };
@@ -46,7 +46,7 @@ export default function HomePage() {
         imageAlt="Architecture de verre lumineuse, symbole d'ambition"
         kicker="ACCOMPAGNEMENT DES DIRIGEANTS, MANAGERS & ÉQUIPES"
         title="Révélez votre potentiel, et celui de vos équipes."
-        subtitle="Nous aidons dirigeants, managers et équipes à surmonter leurs difficultés et à atteindre leurs objectifs — durablement."
+        subtitle="Nous aidons dirigeants, managers et équipes à surmonter leurs difficultés et à atteindre leurs objectifs, durablement."
         primaryCta={{ label: "Prendre contact", href: "/contact" }}
         secondaryCta={{ label: "Trouver mon accompagnement", href: "#accompagnement" }}
       />
@@ -105,7 +105,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* NOTRE APPROCHE — 3 leviers discrets */}
+      {/* NOTRE APPROCHE, 3 leviers discrets */}
       <section
         className="py-24 lg:py-32"
         style={{ backgroundColor: "#fcfaf6", borderTop: "1px solid #e6dfd2" }}
@@ -175,7 +175,7 @@ export default function HomePage() {
                 className="text-sm font-medium uppercase tracking-widest"
                 style={{ color: "#b0894f" }}
               >
-                — Anatole France
+               , Anatole France
               </footer>
             </blockquote>
           </Reveal>
@@ -187,7 +187,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* FONDATEUR — teaser */}
+      {/* FONDATEUR, teaser */}
       <section
         className="py-24 lg:py-32"
         style={{ backgroundColor: "#fcfaf6", borderTop: "1px solid #e6dfd2" }}
@@ -225,7 +225,7 @@ export default function HomePage() {
                     lineHeight: 1.25,
                   }}
                 >
-                  Nicolas Blecher — Executive Coach HEC, fondateur de Valiance
+                  Nicolas Blecher, Executive Coach HEC, fondateur de Valiance
                 </h2>
               </Reveal>
               <Reveal delay={0.1}>

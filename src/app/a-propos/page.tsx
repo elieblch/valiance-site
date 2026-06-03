@@ -6,11 +6,11 @@ import CTASection from "@/components/CTASection";
 import { IMAGES } from "@/content/images";
 
 export const metadata: Metadata = {
-  title: "À propos — Nicolas Blecher, Executive Coach HEC | Valiance",
+  title: "À propos, Nicolas Blecher, Executive Coach HEC | Valiance",
   description:
     "Nicolas Blecher, Executive Coach certifié HEC, Black Belt Lean Six Sigma, ENSAE. Fondateur de Valiance, 20+ ans d'expérience en transformation et performance.",
   openGraph: {
-    title: "À propos — Nicolas Blecher | Valiance",
+    title: "À propos, Nicolas Blecher | Valiance",
     description:
       "Nicolas Blecher, Executive Coach HEC et fondateur de Valiance. Découvrez son parcours et ses engagements.",
   },
@@ -25,7 +25,7 @@ const CERTIFICATIONS = [
 
 const PARCOURS = [
   "+20 ans en transformation et performance (EDF, RTE, Alcatel ; bancaire, start-ups).",
-  "Expert des modes de management innovants — managers, équipes, dirigeants.",
+  "Expert des modes de management innovants, managers, équipes, dirigeants.",
   "Conçoit et anime des formations (management collaboratif, feedback, pilotage visuel, amélioration continue) et des groupes de codéveloppement.",
   "A conçu et piloté une transformation managériale à l'échelle du parc nucléaire français (100+ jours de formation, 500 h de coaching).",
   "Large expérience des modes de fonctionnement à distance.",

@@ -1,4 +1,4 @@
-/* Centralized image catalogue — all URLs verified with curl -I (HTTP 200) */
+/* Centralized image catalogue, all URLs verified with curl -I (HTTP 200) */
 
 export const IMAGES = {
   heroHome:

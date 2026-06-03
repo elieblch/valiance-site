@@ -7,7 +7,7 @@ interface StatCounterProps {
   value: number;
   prefix?: string;
   suffix?: string;
-  /** When true, only prefix is shown (no animated count) — for text-only stats */
+  /** When true, only prefix is shown (no animated count), for text-only stats */
   textOnly?: boolean;
   label: string;
   sublabel?: string;

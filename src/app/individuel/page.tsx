@@ -17,11 +17,11 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Coaching individuel — dirigeants, managers & talents | Valiance",
+  title: "Coaching individuel, dirigeants, managers & talents | Valiance",
   description:
-    "Un coaching individuel pour franchir un cap en confiance. Prise de poste, leadership, carrière, confiance en soi, moments décisifs — coaching certifié HEC.",
+    "Un coaching individuel pour franchir un cap en confiance. Prise de poste, leadership, carrière, confiance en soi, moments décisifs, coaching certifié HEC.",
   openGraph: {
-    title: "Coaching individuel — dirigeants, managers & talents | Valiance",
+    title: "Coaching individuel, dirigeants, managers & talents | Valiance",
     description:
       "Un coaching individuel pour franchir un cap en confiance. Coaching certifié HEC pour dirigeants, managers et talents.",
   },
@@ -56,10 +56,10 @@ const RESULTS = [
 ];
 
 const PROCESS_STEPS = [
-  { number: 1, label: "Premier échange sans engagement — pour se découvrir et vérifier l'alignement." },
-  { number: 2, label: "Cadrage de vos objectifs — définir ce que vous voulez vraiment atteindre." },
+  { number: 1, label: "Premier échange sans engagement, pour se découvrir et vérifier l'alignement." },
+  { number: 2, label: "Cadrage de vos objectifs, définir ce que vous voulez vraiment atteindre." },
   { number: 3, label: "~10 séances, 1 à 2 par mois, 1h30–2h, en présentiel ou à distance." },
-  { number: 4, label: "Bilan et ancrage — consolider les acquis et tracer la suite." },
+  { number: 4, label: "Bilan et ancrage, consolider les acquis et tracer la suite." },
 ];
 
 const charteItems = [
@@ -69,7 +69,7 @@ const charteItems = [
       <ol className="space-y-2 list-decimal list-inside text-sm" style={{ color: "#3a4049" }}>
         {[
           "Posture bienveillante : écouter sans jugement, sans intention pour le client, avec éthique.",
-          "Connaissance de l'entreprise — pratique professionnelle réelle, si possible managériale.",
+          "Connaissance de l'entreprise, pratique professionnelle réelle, si possible managériale.",
           "Travail personnel approfondi dans la durée.",
           "Formation en psychologie et facteurs humains.",
           "Connaissance des fondamentaux du coaching (programme HEC / école reconnue).",
@@ -86,7 +86,7 @@ const charteItems = [
     content: (
       <ol className="space-y-2 list-decimal list-inside text-sm" style={{ color: "#3a4049" }}>
         {[
-          "Contractualisation — volontariat du client, termes clairs.",
+          "Contractualisation, volontariat du client, termes clairs.",
           "Intégrité et informations véridiques.",
           "Confidentialité et protection des données.",
           "Absence de conflits d'intérêts.",

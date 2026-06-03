@@ -23,7 +23,7 @@ export default function ContactPage() {
         imageAlt="Paysage forêt d'Ermenonville, Île-de-France"
         kicker="CONTACT"
         title="Échangeons sur vos enjeux"
-        subtitle="Nous intervenons principalement en Île-de-France et dans l'Oise — Paris, Senlis, Chantilly, Compiègne. Nous travaillons aussi en distanciel et pouvons nous déplacer sur l'ensemble du territoire."
+        subtitle="Nous intervenons principalement en Île-de-France et dans l'Oise, Paris, Senlis, Chantilly, Compiègne. Nous travaillons aussi en distanciel et pouvons nous déplacer sur l'ensemble du territoire."
       />
 
       <section className="py-24 lg:py-32" style={{ backgroundColor: "#f7f4ee" }}>
