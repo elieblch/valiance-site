@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 const NAV_LINKS = [
-  { label: "Coaching", href: "/coaching" },
-  { label: "Conseil", href: "/conseil" },
-  { label: "Formation", href: "/formation" },
+  { label: "Accueil", href: "/" },
+  { label: "Individuel", href: "/individuel" },
+  { label: "Collectif", href: "/collectif" },
   { label: "À propos", href: "/a-propos" },
   { label: "Contact", href: "/contact" },
 ];

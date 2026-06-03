@@ -19,11 +19,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Valiance | Coaching · Conseil · Formation",
+    default: "Valiance — Coaching · Conseil · Formation pour dirigeants & équipes",
     template: "%s | Valiance",
   },
   description:
-    "Spécialistes de l'accompagnement efficace, nous vous aidons à trouver votre voie pour surmonter vos difficultés et atteindre vos objectifs.",
+    "Nous aidons dirigeants, managers et équipes à surmonter leurs difficultés et atteindre leurs objectifs — durablement. Coaching individuel et collectif, certifié HEC.",
   icons: {
     icon: [{ url: "/favicon.ico" }],
     apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
